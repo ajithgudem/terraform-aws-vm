@@ -131,6 +131,6 @@ resource "aws_instance" "instance" {
 
   tags = {
     Name = "${var.prefix}-demo"
-    Demo = "Strategy Day"
+    Demo = "acme-demo-agudem"
   }
 }
